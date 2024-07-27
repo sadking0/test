@@ -1,0 +1,23 @@
+from turtle import*
+speed(1)
+begin_fill()
+forward(100)
+right(90)
+forward(100)
+right(90)
+forward(100)
+right(90)
+forward(100)
+end_fill()
+
+penup()
+forward(50)
+pendown()
+begin_fill()
+color("red")
+circle(90)
+end_fill()
+
+
+exitonclick()
+
